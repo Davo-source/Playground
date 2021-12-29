@@ -1,0 +1,40 @@
+body{
+    background-color: #EAF6F6
+}
+
+h1{
+ color: #66BFBF;
+}
+
+h3{
+    color: #66FBFB;
+}
+
+hr{
+    border-style:none; /*PARA QUE NO SALGAN LA LINEA*/
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px; /*CADA PUNTO ES UN PIXEL*/
+    width: 5%;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
